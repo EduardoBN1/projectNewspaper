@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+
+*{
+    font-family: Poppins;
+}
+
+article>p{
+    font-family: Lora;
+    padding-left: 1em;
+}
+
+h1,h2,a{
+    font-family: Poppins;
+}
+
+body>header:first-of-type>div>a, body>header:first-of-type{
+    background-color: #046DD5;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+body>header:first-of-type>h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+body>header:first-of-type>div>a{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+body>header:first-of-type>div>a:first-of-type{
+    padding-right: 1.8em;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0.14em;
+    border-color: white;
+    border-style: solid;
+}
+body>header:first-of-type>h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+h1>a, h2>a{
+    text-decoration: none;
+    color: white;
+}
+h2>a{
+    font-weight: normal;
+}
+
+nav>input, nav>label{
+    display: none;
+}
+
+nav>ul:first-of-type{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top:0;
+    padding-left: 0;
+    width:100%;
+}
+
+ul>li>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+ul>li:nth-child(1),ul>li:nth-child(2),ul>li:nth-child(3),ul>li:nth-child(4),ul>li:nth-child(5),ul>li:nth-child(6){
+    padding-right: 0;
+    border-left: 0;
+    border-top: 0.25em;
+    border-bottom: 0;
+    border-right: 0;
+    border-style: solid;
+}
+ul>li:nth-child(1){
+    border-color: #E1493E;
+}
+ul>li:nth-child(2){
+    border-color: #8ABA56;
+}
+ul>li:nth-child(3){
+    border-color: #5B4282;
+}
+ul>li:nth-child(4){
+    border-color: #FF8932;
+}
+ul>li:nth-child(5){
+    border-color: #19B6E9;
+}
+ul>li:nth-child(6){
+    border-color: #E84C8B;
+}
+
+nav>ul,nav>ul>li{
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+}
+
+nav>ul>li:hover{
+    background-color: #2A2F33;  
+}
+
+nav>ul>li:hover>a{
+    color: white;  
+}
+
+#related{
+    background-color: #2A2F33;
+    color: white;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+article>h1{
+    padding-left: 1em;
+}
+
+article>header>h1{
+    text-shadow: 5px 5px 5px black;
+    padding-left: 1em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#news>article>p:first-of-type:first-letter{
+    font-family: Lora;
+    font-size: xx-large;
+}
+
+article>footer, .date{
+    text-decoration: none;
+    font-family: Poppins;
+    background-color: #F4655F;
+    color: white;
+    padding: 1em;
+}
+footer>span.author::before{
+    content: "By ";
+}
+
+footer>span>a, footer>a.comments{
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0.13em;
+    border-right: 0;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+}
+footer>a.comments::after{
+    content: " comments";
+}
+.date{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+article>footer>span>a, article>footer>a{
+    font-family: Poppins;
+    background-color: #F4655F;
+    color: white;
+}
+
+body>footer:last-child{
+    background-color: #2A2F33;
+    color: white;
+    padding-left: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+body>footer:last-child>p{
+    font-family: Poppins;
+}
+
+
